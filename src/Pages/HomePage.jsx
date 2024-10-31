@@ -6,7 +6,7 @@ import Hero from "../Components/Hero";
 const HomePage = () => {
   return (
     <div>
-      <div className="bg-slate-900 h-20 p-2">
+      <div className="bg-slate-900 h-20 p-2 sticky top-0">
         <div className="lg:w-[80%] mx-auto">
           <Header />
         </div>
