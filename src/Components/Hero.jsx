@@ -39,6 +39,7 @@ const Hero = () => {
               <VscGithubInverted className="text-2xl " />
             </Link>
           </div>
+          
         </div>
       </div>
     </div>
