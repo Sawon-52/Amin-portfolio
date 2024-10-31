@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
 import { Outlet } from "react-router-dom";
+import Hero from "../Components/Hero";
 
 const HomePage = () => {
   return (
@@ -10,8 +11,10 @@ const HomePage = () => {
           <Header />
         </div>
       </div>
-      <div>
-        <Outlet></Outlet>
+      <div className="bg-slate-800">
+        <div className="lg:w-[80%] mx-auto">
+          <Hero />
+        </div>
       </div>
     </div>
   );
