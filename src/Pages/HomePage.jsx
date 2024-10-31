@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import { Outlet } from "react-router-dom";
 import Hero from "../Components/Hero";
 import ContactForm from "../Components/ContactForm";
+import ResumeSection from "../Components/ResumeSection";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,9 @@ const HomePage = () => {
         <div className="lg:w-[80%] mx-auto">
           <Hero />
         </div>
+        <section>
+          <ResumeSection></ResumeSection>
+        </section>
         <section>
           <ContactForm></ContactForm>
         </section>
