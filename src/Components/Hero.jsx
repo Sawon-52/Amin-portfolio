@@ -8,11 +8,11 @@ import { VscGithubInverted } from "react-icons/vsc";
 
 const Hero = () => {
   return (
-    <div className="flex items-center bg-base-200 min-h-screen text-gray-50 p-10 lg:p-0">
+    <div className="flex items-center bg-base-200 min-h-screen text-gray-50  py-12 px-6 lg:px-20">
       <div className="flex flex-col lg:flex-row justify-between items-center w-full ">
         <div className="text-center lg:text-left my-10 lg:my-0">
           <h3 className="text-orange-500 text-4xl my-5">Hello, I’m</h3>
-          <h1 className=" text-6xl lg:text-8xl font-bold">
+          <h1 className=" text-5xl lg:text-8xl font-bold">
             Din Mohammad <br /> Al-Amin
           </h1>
           <p className="py-6">Front-End Developer</p>

@@ -27,11 +27,6 @@ const Header = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/blog" className={({ isActive, isPending }) => (isActive ? "text-orange-600" : isPending ? "text-gray-50" : "")}>
-          Blog
-        </NavLink>
-      </li>
-      <li>
         <NavLink to="/contact" className={({ isActive, isPending }) => (isActive ? "text-orange-600" : isPending ? "text-gray-50" : "")}>
           Contact
         </NavLink>
@@ -39,7 +34,7 @@ const Header = () => {
     </>
   );
   return (
-    <div className="flex justify-between items-center  text-gray-50 ">
+    <div className="flex justify-between items-center  text-gray-50 py-0 px-6 lg:px-20">
       <div className="">
         <Link className="text-4xl font-bold  text-right lg:text-right flex items-center gap-1">
           <PiFlowerLotusThin className="rounded-full p-0 text-orange-600 border-2 border-orange-600 text-4xl " />

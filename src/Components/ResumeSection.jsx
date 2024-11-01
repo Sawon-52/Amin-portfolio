@@ -2,7 +2,7 @@ import React from "react";
 
 const ResumeSection = () => {
   return (
-    <section className="bg-[#0d1117] text-white py-12 px-6 lg:px-32">
+    <section className=" text-white py-12 px-6 lg:px-20">
       {/* Header */}
       <div className="text-center mb-12">
         <h1 className="text-5xl font-bold text-orange-600">RESUME</h1>
@@ -10,7 +10,7 @@ const ResumeSection = () => {
       </div>
 
       {/* Content */}
-      <div className="flex flex-col lg:flex-row lg:space-x-12">
+      <div className="flex flex-col lg:flex-row justify-between w-full">
         {/* Education Column */}
         <div className="w-full lg:w-1/2">
           <h2 className="text-3xl font-semibold mb-6">Education</h2>
@@ -42,7 +42,7 @@ const ResumeSection = () => {
         </div>
 
         {/* Divider for large screens */}
-        <div className="hidden lg:block w-px bg-[#1f2937] h-full mx-8"></div>
+        <div className="hidden lg:block w-px bg-[#dcdee2] h-full mx-8"></div>
 
         {/* Experience Column */}
         <div className="w-full lg:w-1/2 mt-8 lg:mt-0">

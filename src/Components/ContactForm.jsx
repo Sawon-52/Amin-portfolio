@@ -7,13 +7,13 @@ import { VscGithubInverted } from "react-icons/vsc";
 
 const ContactForm = () => {
   return (
-    <section className="bg-[#0d1117] text-white py-12 px-6 lg:px-32">
+    <section className=" text-white py-12 px-6 lg:p-20">
       <div className="text-center mb-12">
         <h1 className="text-5xl font-bold text-orange-600">CONTACT</h1>
         <div className="border-b-4 border-orange-600 w-24 mx-auto mt-2"></div>
       </div>
 
-      <div className="flex flex-col lg:flex-row lg:space-x-12">
+      <div className="flex flex-col lg:flex-row justify-between w-full  lg:space-x-12 ">
         {/* Left Section - Contact Form */}
         <div className="w-full lg:w-1/2 space-y-6">
           <h2 className="text-3xl font-semibold">Just say Hello</h2>
@@ -23,9 +23,6 @@ const ContactForm = () => {
           <textarea placeholder="Your Message" rows="4" className="w-full bg-[#161b22] border border-[#1f2937]  p-4 rounded-md focus:outline-orange-600"></textarea>
           <button className="bg-orange-600 text-[#0d1117] px-6 py-3 rounded-md hover:bg-orange-500 font-semibold">Send Message</button>
         </div>
-
-        {/* Vertical Divider */}
-        <div className="hidden lg:block w-px bg-[#1f2937] h-full mx-8"></div>
 
         {/* Right Section - Contact Info */}
         <div className="w-full lg:w-1/2 space-y-6 mt-8 lg:mt-0">
@@ -76,6 +73,7 @@ const ContactForm = () => {
             </Link>
           </div>
         </div>
+
       </div>
     </section>
   );
