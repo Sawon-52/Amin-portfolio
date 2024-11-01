@@ -10,7 +10,7 @@ const Skills = () => {
     { name: "Digital Marketing", level: "90%" },
   ];
   return (
-    <div className=" text-white py-12 px-4 lg:p-20">
+    <div className=" text-white py-12 px-6 lg:p-20">
       <div className="text-center mb-12">
         <h1 className="text-5xl font-bold text-orange-600">MY SKILLS</h1>
         <div className="border-b-4 border-orange-600 w-24 mx-auto mt-2"></div>

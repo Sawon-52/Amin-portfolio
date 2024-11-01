@@ -7,6 +7,7 @@ import ResumeSection from "../Components/ResumeSection";
 import Footer from "../Components/Footer";
 import AboutMe from "../Components/AboutMe";
 import Skills from "../Components/Skills";
+import MyWork from "../Components/MyWork";
 
 const HomePage = () => {
   return (
@@ -28,6 +29,9 @@ const HomePage = () => {
         </section>
         <section className="lg:w-[80%] mx-auto">
           <Skills />
+        </section>
+        <section className="lg:w-[80%] mx-auto">
+          <MyWork />
         </section>
         <section className="lg:w-[80%] mx-auto">
           <ContactForm></ContactForm>
