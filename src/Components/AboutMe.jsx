@@ -12,7 +12,7 @@ const AboutMe = () => {
           {/* Left Section with Image */}
           <div className="md:w-1/2 w-full">
             <img
-              src="https://via.placeholder.com/500x500" // Replace with actual image URL
+              src="https://scontent.fdac31-2.fna.fbcdn.net/v/t39.30808-6/422957551_3726709960986524_2413729148571415667_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=f727a1&_nc_ohc=Nkh6d_mr-Z0Q7kNvgGnGcsP&_nc_zt=23&_nc_ht=scontent.fdac31-2.fna&_nc_gid=A9emuy6Z7ESma2qwd1hY922&oh=00_AYB1_lzce5PMZUm5Bd10vRP76c7Xxhg5Rm9KAIbepHt8Jg&oe=672A378F" // Replace with actual image URL
               alt="Profile"
               className="object-cover h-full w-full"
             />
